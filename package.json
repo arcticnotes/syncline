@@ -13,6 +13,7 @@
 		"url": "https://github.com/arcticnotes/syncline/issues"
 	},
 	"type": "module",
+	"types": "lib/syncline.d.ts",
 	"exports": {
 		".": "./lib/index.js"
 	}
