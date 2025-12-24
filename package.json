@@ -1,0 +1,19 @@
+{
+	"name": "@arcticnotes/syncline",
+	"version": "0.0.1",
+	"description": "A library providing synchronous interactions (no async/await, Promises, or callbacks) with subprocesses",
+	"author": "Paul <paul@arcticnotes.com>",
+	"license": "MIT",
+	"homepage": "https://github.com/arcticnotes/syncline#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/arcticnotes/syncline.git"
+	},
+	"bugs": {
+		"url": "https://github.com/arcticnotes/syncline/issues"
+	},
+	"type": "module",
+	"exports": {
+		".": "./lib/index.js"
+	}
+}
