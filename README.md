@@ -1,7 +1,7 @@
 
 # Syncline
 
-A JavaScript library providing synchronous communication (without `async`/`await`, `Promise`s, or callbacks) with child
+A Node.js library providing synchronous communication (without `async`/`await`, `Promise`s, or callbacks) with child
 processes.
 
 ## What Does It Do?
