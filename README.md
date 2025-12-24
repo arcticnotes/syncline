@@ -4,7 +4,7 @@
 A Node.js library providing synchronous communication (without `async`/`await`, `Promise`s, or callbacks) with child
 processes.
 
-## What Does It Do?
+## What It Does
 
 This library spawns a child process of the specified command, interacts with its standard input/output/error streams
 (*asynchronously* as usual), but exposes it to the client code as a *synchronous* function invocation.
@@ -23,7 +23,7 @@ console.log(syncline.exchange('Hello, world!')); // prints 'HELLO, WORLD!'
 await syncline.close();
 ```
 
-## How Might It Be Useful?
+## How It Might Be Useful
 
 Library/framework/platform authors may use this library to wrap an external executable, or an external network interface
 through commands such as `nc` (`netcat`), and expose it as if it were an internal synchronous operation, either for
@@ -32,7 +32,7 @@ avoiding the need for asynchronous coordination, or because asynchronous operati
 Note that since the JavaScript language itself is single-threaded by nature, invoking a blocking function means no other
 activity can happen in the meantime, even the event handlers. Consider that when you decide to use this library.
 
-## How Does It Work?
+## How It Works
 
 To return the result in the same synchronous call, we have to block the calling thread and do the IO processing in a
 separate thread. The blocking is accomplished by `Atomics.wait()`, while the other thread is created by a `Worker`.
