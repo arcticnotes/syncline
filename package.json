@@ -16,5 +16,8 @@
 	"types": "lib/syncline.d.ts",
 	"exports": {
 		".": "./lib/index.js"
-	}
+	},
+	"files": [
+		"/lib/"
+	]
 }
