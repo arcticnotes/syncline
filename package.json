@@ -1,6 +1,6 @@
 {
 	"name": "@arcticnotes/syncline",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "A Node.js library providing synchronous communication (without async/await, Promises, or callbacks) with child processes",
 	"author": "Paul <paul@arcticnotes.com>",
 	"license": "MIT",
